@@ -10,9 +10,9 @@ const ServiceCom = ({ image, title, details }) => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
-      className=" rounded-[30px] lg:mb-0 mb-10  bg-white h-[370px]"
+      className=" rounded-[30px] relative lg:mb-0 mb-10  bg-white h-[370px]"
     >
-      <div className="relative bg-[#1a175dc4] rounded-b-[30px] lg:rounded-[30px] py-5 px-5 text-white space-y-4 lg:left-7 bottom-[-215px] md:bottom-[-230px] lg:bottom-[-180px] lg:w-[70%]">
+      <div className="absolute lg:relative bg-[#1a175dc4] rounded-b-[30px] lg:rounded-[30px] py-5 px-5 text-white space-y-4 lg:left-7 bottom-0 lg:bottom-[-180px] lg:w-[70%]">
         <h3 className="text-xl md:text-3xl">{title}</h3>
         <p className="text-[#b6b5c6] w-[80%]">{details}</p>
         <button className="bg-[#ffcc00] p-3 absolute right-6 bottom-6 rounded-full text-[#ffffff] font-semibold flex items-center">
