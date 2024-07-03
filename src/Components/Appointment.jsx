@@ -15,7 +15,7 @@ const Appointment = () => {
       >
         <img className="absolute w-[100px] right-10 top-10" src={logo} alt="" />
 
-        <h2 className="text-2xl md:text-4xl font-bold w-[500px] leading-[1.3] text-[rgb(255,255,255)]">
+        <h2 className="text-2xl md:text-4xl font-bold lg:w-[500px] leading-[1.3] text-[rgb(255,255,255)]">
           Get Your <br />
           First Appointment <br />
           at 50% off!
